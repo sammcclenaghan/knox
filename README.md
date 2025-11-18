@@ -6,13 +6,11 @@ A Go CLI tool that automatically manages fleeting notes in your Obsidian vault. 
 
 ```bash
 go build
-./knox -vault /path/to/vault [-dry-run] [-db knox.db]
+./knox 
 ```
 
 ### Flags
-- `-vault`: Path to your Obsidian vault (defaults to `$HOME/vault`)
 - `-dry-run`: Show what would be deleted without actually deleting
-- `-db`: Path to SQLite database (defaults to `knox.db`)
 
 ## Frontmatter Format
 
